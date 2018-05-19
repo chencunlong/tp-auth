@@ -1,0 +1,25 @@
+{
+  "name": "chencunlong/tp-auth",
+  "description": "The ThinkPHP 5.1.x Auth Package(权限管理)",
+  "homepage": "https://github.com/chencunlong/tp-auth",
+  "license": "Apache-2.0",
+  "authors": [
+    {
+      "name": "chencunlong",
+      "email": "chencunlong@126.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.6.0",
+    "topthink/framework": "5.1.*"
+  },
+  "support": {
+    "issues": "https://github.com/chencunlong/tp-auth/issues"
+  },
+  "minimum-stability": "stable",
+  "autoload": {
+    "psr-4": {
+      "think\\auth\\": "src/"
+    }
+  }
+}
