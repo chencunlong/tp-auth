@@ -1,16 +1,17 @@
 # tp-auth
 The ThinkPHP5.1.x Auth Package
-
+(这是Thinkphp5.1.X版本中的auth扩展)
 ## 安装
 > composer require chencunlong/tp-auth
 
 ## 配置
 ### 公共配置
 ```
-// 配置
+// 新建配置文件 Config/当前项目(如admin)/auth.php 
+// 配置参数如下
 
 return [
-	'auth_on'           => true,                      // 认证开关
+    'auth_on'           => true,                      // 认证开关
     'auth_type'         => 1,                         // 认证方式，1为实时认证；2为登录认证。
     'auth_group'        => 'auth_group',        // 用户组数据表名
     'auth_group_access' => 'auth_group_access', // 用户-用户组关系表
